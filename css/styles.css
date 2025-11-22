@@ -2,11 +2,40 @@
 #login{
     background: linear-gradient(120deg , #4c79d3 45%, #fff 45%) no-repeat fixed;
 }
+#app{
+    background: linear-gradient(120deg ,#fff 45%, #4c79d3 45%) no-repeat fixed;
+}
+
+header{
+    border-bottom: 1px solid #bebcbc;
+    padding: 5px;
+    background-color: #fff;
+}
 
 .text-login{
     color: #fff;
     font-size: 18px;
     font-weight: 500;
+}
+
+.color-primary{
+    color: #4e0070;
+}
+
+.color-secondary{
+    color: #4c79d3;
+}
+
+.icon-detail{
+    font-size: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.info{
+    background-color: #fff;
+    border-radius: 20px 20px 0 0;
+    padding: 20px 0 0 0;
 }
 
 .coins{
@@ -35,4 +64,15 @@
 .link-default:hover{
     color: #4c79d3;
     text-decoration: none;
+}
+
+.button-default{
+    border-radius: 10px;
+    background-color: #4e0070;
+    color: #fff;
+}
+
+.button-default:hover{
+    background-color: #4c79d3;
+    color: #fff;
 }
